@@ -1,0 +1,484 @@
+/* UTILITIES */
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    text-align: left;
+    background-color: #eeeeee;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.languages,
+.features,
+.company,
+.roadmaps,
+.how {
+    width: 85%;
+    margin-top: 1%;
+    padding: 3%;
+    text-align: center;
+}
+
+.row {
+    margin-left: 13px;
+    margin-right: -6px;
+}
+
+hr {
+    margin: 10px auto;
+    
+    width: 100%;
+}
+
+.roadmap-header {
+    margin-bottom: 4%;
+    font-size: 2.3rem;
+}
+
+
+/* navbar */
+
+.navbar,.dropdown-menu {
+    background-color: steelblue;
+    position: sticky;
+}
+
+.nav-item,.dropdown-item {
+    padding: 0 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white
+}
+
+.navbar-brand {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    font-size: 2.3rem;
+    padding-left: 1.2%;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color:white;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.dropdown-divider {
+    height: 0;
+    margin: .5rem 0;
+    overflow: hidden;
+    border-top: 1px solid steelblue;
+}
+
+/* HEADER */
+
+.heading {
+    background-color: steelblue;
+    
+    color: white;
+    padding: 2%;
+}
+
+.header {
+    font-size: 2rem;
+    font-style: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+
+.header-content {
+    padding-bottom: 2%;
+    color: rgba(219, 221, 223, 0.719);
+}
+
+.btn {
+    margin-top: 2%;
+}
+
+.icons {
+    padding-left: 15px;
+}
+
+.links {
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+
+/* Computer image */
+
+.computer {
+    width: 80%;
+}
+
+.header-img {
+    padding-left: 10%;
+}
+
+
+/* Company section */
+
+.company {
+    /* background-color: #a3b1f1b4; */
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
+
+.company img {
+    margin-top: 1%;
+    margin-left: 8%;
+}
+
+
+/* Events section */
+
+
+/* .event-card {
+    width: 20px;
+    height: 10px;
+} */
+
+.events {
+    width: 85%;
+    margin-top: 1%;
+    padding: 2%;
+    text-align: center;
+}
+
+.poster1 {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Roadmap section */
+
+.roadmaps {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.roadmaps a {
+    color: black;
+}
+
+.web {
+    object-fit: cover;
+    width: 40%;
+}
+
+.app {
+    width: 55%;
+    object-fit: cover;
+}
+
+.comp {
+    width: 78%;
+    object-fit: cover;
+}
+
+.card {
+    padding: 2%;
+    width: 96%;
+    height: 95%;
+    box-shadow: 1px 1px 5px 3px rgb(212, 211, 211);
+    margin-top: 10px;
+}
+
+
+/* Language section */
+
+.languages {
+    text-align: center;
+}
+
+.languages a {
+    color: white;
+}
+
+.language-card:hover {
+    box-shadow: 1px 1px 5px 3px #929292ea;
+}
+
+.python {
+    width: 70%;
+}
+
+.cpp {
+    width: 74%;
+}
+
+.java {
+    width: 47%;
+}
+
+.dsa {
+    width: 35%;
+}
+
+
+/* Explore All programming languages section */
+
+.but {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+
+/* Feature section */
+
+.features {
+    margin-top: 3%;
+}
+
+.feature-card-header {
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+.feature-card-content {
+    color: rgba(128, 128, 128, 0.842);
+    font-weight: 300;
+}
+
+.content,
+.availability,
+.hero {
+    width: 30%;
+}
+
+.limits {
+    width: 50%;
+}
+
+
+/* Mail Section*/
+
+
+
+/* .mail {
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+}
+
+.mail:hover {
+    color: rgba(253, 253, 253, 0.753);
+} */
+
+
+/* Footer Section */
+/* Footer */
+footer {
+    background: steelblue ;
+    padding: 2%
+}
+footer h5{
+    color: white;
+}
+footer .logo{
+    width: 32%;
+    text-align: center;
+
+}
+footer .foot-header {
+    margin-bottom: 8px; 
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.7px;
+}
+
+footer .footer-ul {
+    list-style: none;
+    text-align: left;
+    font-size: 1rem;
+    padding-inline-start: 0;
+}
+
+footer .f-links {
+    color: rgb(255, 255, 255);
+}
+
+footer .f-links:hover {
+    color: rgb(191, 221, 247);
+}
+
+footer .footer-column {
+    margin-left: 0%;
+    display: inline-block;
+    width: 17%;
+    
+}
+
+footer .f-img {
+    width: 135px;
+    text-align: center;
+}
+footer .mt-3{
+    text-align: center;
+    color: white;
+}
+
+
+@media (max-width: 1292px){
+    footer .logo {
+    width: 35%;
+}
+}
+@media (max-width: 1024px) {
+    footer .rt, footer .footer-ul {
+        
+        text-align: center;
+        width: 100%;
+    }
+    footer .foot-header {
+       
+        text-align: center;
+        width: 100%;
+    }
+    footer .col-md-3, .col-md-7{
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    footer .logo{
+        width: 100%;
+        text-align: center;
+    }
+    footer .footer-column {
+        text-align: center;
+        width: 32.5%;
+    }
+}
+@media (max-width: 768px){
+    footer .rt, footer .footer-ul {
+        
+        text-align: center;
+        width: 100%;
+    }
+    footer .foot-header {
+       
+        text-align: center;
+        width: 100%;
+    }
+    footer .col-md-3, .col-md-7{
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    footer .logo{
+        width: 100%;
+        text-align: center;
+    }
+    footer .footer-column {
+        text-align: center;
+        width: 100%;
+    }
+
+
+}
+@media only screen and (max-width: 400px) {
+    footer .rt, footer .footer-ul {
+        
+        text-align: center;
+        width: 100%;
+    }
+    footer .foot-header {
+
+        text-align: center;
+        width: 100%;
+    }
+    footer .col-md-3, .col-md-7{
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    footer .logo{
+        width: 100%;
+        text-align: center;
+    }
+    footer .footer-column {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+
+/* footer {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center; 
+    background-color: steelblue;
+    padding: 2%;
+}
+
+.footer-links {
+    margin-bottom: 1%;
+}*/
+
+
+/* Team section */
+
+.team {
+    text-align: center;
+    padding: 3%;
+}
+
+.team a {
+    color: blue;
+}
+
+.team-card:hover {
+    box-shadow: 1px 1px 5px 3px #94a5f1ea;
+}
+
+.team_img {
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: steelblue;
+    border-color: steelblue;
+}
+.card-img {
+    padding:10px;
+    width: 100%;
+    border-radius: 25px;
+}
